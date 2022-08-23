@@ -1,18 +1,28 @@
 <template>
-  <BaseHeader/>
+  <div id="app">
+    <header>
+      <BaseHeader />
+    </header>
+    <main></main>
+    <footer></footer>
+  </div>
 </template>
 
 <script>
-import BaseHeader from './components/BaseHeader.vue'
+import BaseHeader from "./components/BaseHeader.vue";
 import "./assets/sass/style.scss";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    BaseHeader
-  }
-}
+    BaseHeader,
+  },
+};
 </script>
 
 <style lang="scss">
-
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 </style>
