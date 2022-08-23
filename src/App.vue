@@ -5,12 +5,12 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BaseHeader from './components/BaseHeader.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    BaseHeader
   }
 }
 </script>
