@@ -175,7 +175,7 @@
         <div class="row justify-content-between">
           <div class="">
             <i class="fa-solid fa-angle-left"></i>
-            </div>
+          </div>
           <div class="col">
             <span class="fw-bold text-white btn-black">GADGETS</span>
           </div>
@@ -196,7 +196,231 @@
           </div>
           <div class="">
             <i class="fa-solid fa-angle-right"></i>
-            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-9 py-3">
+            <article class="border-bottom py-4">
+              <img :src="require('@/assets/images/blog-54.jpg')" alt="" />
+              <div class="info d-flex">
+                <div class="date d-flex flex-column mt-3">
+                  <span class="day fw-bold text-center">12</span>
+                  <span class="month fw-bold text-white text-center">JAN</span>
+                </div>
+                <div class="title mx-3 mt-3">
+                  <h3>How to Make Friends as a Grown-up</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt corporis adipisci repellat maiores eum cupiditate
+                    aut molestiae modi, nulla explicabo quo fugit doloremque
+                    voluptatem quasi deleniti. Adipisci eveniet omnis harum,
+                    nulla explicabo quo fugit doloremque voluptatem quasi
+                    deleniti! Proin rhoncus consequat nisl, eu ornare mauris
+                    tincidunt vitae. [...]
+                  </p>
+                </div>
+              </div>
+              <div class="row readable justify-content-between">
+                <div class="col-6">
+                  <span
+                    ><i class="fa-regular fa-user mx-1"></i>By John Doe</span
+                  >
+                  <span class="mx-3"
+                    ><i class="fa-regular fa-folder mx-1"></i>Lifestyle,
+                    Travel</span
+                  >
+                  <span
+                    ><i class="fa-regular fa-comments mx-1"></i>12
+                    Comments</span
+                  >
+                </div>
+                <div class="col-2 align-items-end text-end">
+                  <div class="button text-center">READ MORE</div>
+                </div>
+              </div>
+            </article>
+            <article class="margin border-bottom py-4">
+              <img :src="require('@/assets/images/blog-55a.jpg')" alt="" />
+              <div class="info d-flex">
+                <div class="date d-flex flex-column mt-3">
+                  <span class="day fw-bold text-center">12</span>
+                  <span class="month fw-bold text-white text-center">JAN</span>
+                </div>
+                <div class="title mx-3 mt-3">
+                  <h3>Simple Ways to Have a Pretty Face</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt corporis adipisci repellat maiores eum cupiditate
+                    aut molestiae modi, nulla explicabo quo fugit doloremque
+                    voluptatem quasi deleniti. Adipisci eveniet omnis harum,
+                    nulla explicabo quo fugit doloremque voluptatem quasi
+                    deleniti! Proin rhoncus consequat nisl, eu ornare mauris
+                    tincidunt vitae. [...]
+                  </p>
+                </div>
+              </div>
+              <div class="row justify-content-between">
+                <div class="col-6">
+                  <span
+                    ><i class="fa-regular fa-user mx-1"></i>By John Doe</span
+                  >
+                  <span class="mx-3"
+                    ><i class="fa-regular fa-folder mx-1"></i>Photography,
+                    Travel</span
+                  >
+                  <span
+                    ><i class="fa-regular fa-comments mx-1"></i>12
+                    Comments</span
+                  >
+                </div>
+                <div class="col-2 align-items-end text-end">
+                  <div class="button text-center">READ MORE</div>
+                </div>
+              </div>
+            </article>
+            <article class="margin border-bottom py-4">
+              <img :src="require('@/assets/images/blog-56b.jpg')" alt="" />
+              <div class="info d-flex">
+                <div class="date d-flex flex-column mt-3">
+                  <span class="day fw-bold text-center">12</span>
+                  <span class="month fw-bold text-white text-center">JAN</span>
+                </div>
+                <div class="title mx-3 mt-3">
+                  <h3>Ranking the greatest players in basketball</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt corporis adipisci repellat maiores eum cupiditate
+                    aut molestiae modi, nulla explicabo quo fugit doloremque
+                    voluptatem quasi deleniti. Adipisci eveniet omnis harum,
+                    nulla explicabo quo fugit doloremque voluptatem quasi
+                    deleniti! Proin rhoncus consequat nisl, eu ornare mauris
+                    tincidunt vitae. [...]
+                  </p>
+                </div>
+              </div>
+              <div class="row justify-content-between">
+                <div class="col-6">
+                  <span
+                    ><i class="fa-regular fa-user mx-1"></i>By John Doe</span
+                  >
+                  <span class="mx-3"
+                    ><i class="fa-regular fa-folder mx-1"></i>Sport,
+                    Business</span
+                  >
+                  <span
+                    ><i class="fa-regular fa-comments mx-1"></i>12
+                    Comments</span
+                  >
+                </div>
+                <div class="col-2 align-items-end text-end">
+                  <div class="button text-center">READ MORE</div>
+                </div>
+              </div>
+            </article>
+            <article class="margin border-bottom py-4">
+              <img :src="require('@/assets/images/blog-58a.jpg')" alt="" />
+              <div class="info d-flex">
+                <div class="date d-flex flex-column mt-3">
+                  <span class="day fw-bold text-center">12</span>
+                  <span class="month fw-bold text-white text-center">JAN</span>
+                </div>
+                <div class="title mx-3 mt-3">
+                  <h3>Top Camper Trailer Towing Tips</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt corporis adipisci repellat maiores eum cupiditate
+                    aut molestiae modi, nulla explicabo quo fugit doloremque
+                    voluptatem quasi deleniti. Adipisci eveniet omnis harum,
+                    nulla explicabo quo fugit doloremque voluptatem quasi
+                    deleniti! Proin rhoncus consequat nisl, eu ornare mauris
+                    tincidunt vitae. [...]
+                  </p>
+                </div>
+              </div>
+              <div class="row justify-content-between">
+                <div class="col-6">
+                  <span
+                    ><i class="fa-regular fa-user mx-1"></i>By John Doe</span
+                  >
+                  <span class="mx-3"
+                    ><i class="fa-regular fa-folder mx-1"></i>Travel,
+                    Lifestyle</span
+                  >
+                  <span
+                    ><i class="fa-regular fa-comments mx-1"></i>12
+                    Comments</span
+                  >
+                </div>
+                <div class="col-2 align-items-end text-end">
+                  <div class="button text-center">READ MORE</div>
+                </div>
+              </div>
+            </article>
+            <article class="margin border-bottom py-4">
+              <div class="row">
+                <div class="col-4 p-0">
+                  <img :src="require('@/assets/images/blog-13.jpg')" alt="" />
+                </div>
+                <div class="col-4 p-0">
+                  <img :src="require('@/assets/images/blog-16.jpg')" alt="" />
+                </div>
+                <div class="col-4 p-0">
+                  <img :src="require('@/assets/images/blog-20.jpg')" alt="" />
+                </div>
+                <div class="col-4 p-0">
+                  <img :src="require('@/assets/images/blog-23.jpg')" alt="" />
+                </div>
+                <div class="col-4 p-0">
+                  <img :src="require('@/assets/images/blog-29.jpg')" alt="" />
+                </div>
+                <div class="col-4 p-0">
+                  <img :src="require('@/assets/images/blog-40.jpg')" alt="" />
+                </div>
+              </div>
+              <div class="info d-flex">
+                <div class="date d-flex flex-column mt-3">
+                  <span class="day fw-bold text-center">8</span>
+                  <span class="month fw-bold text-white text-center">JAN</span>
+                </div>
+                <div class="title mx-3 mt-3">
+                  <h3>10 Best Travel Tips After 5 Years Traveling The World</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt corporis adipisci repellat maiores eum cupiditate
+                    aut molestiae modi, nulla explicabo quo fugit doloremque
+                    voluptatem quasi deleniti. Adipisci eveniet omnis harum,
+                    nulla explicabo quo fugit doloremque voluptatem quasi
+                    deleniti! Proin rhoncus consequat nisl, eu ornare mauris
+                    tincidunt vitae. [...]
+                  </p>
+                </div>
+              </div>
+              <div class="row justify-content-between">
+                <div class="col-6">
+                  <span
+                    ><i class="fa-regular fa-user mx-1"></i>By John Doe</span
+                  >
+                  <span class="mx-3"
+                    ><i class="fa-regular fa-folder mx-1"></i>Lifestyle,
+                    Travel</span
+                  >
+                  <span
+                    ><i class="fa-regular fa-comments mx-1"></i>12
+                    Comments</span
+                  >
+                </div>
+                <div class="col-2 align-items-end text-end">
+                  <div class="button text-center">READ MORE</div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-3"></div>
         </div>
       </div>
     </section>
@@ -265,5 +489,54 @@ p {
   padding-bottom: 10px;
   padding-right: 25px;
   padding-left: 25px;
+}
+
+#blog {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+article img {
+  width: 100%;
+}
+
+.day {
+  background-color: #f7f7f7;
+  padding: 10px;
+  width: 40px;
+}
+
+.month {
+  background-color: black;
+  padding: 5px;
+  width: 40px;
+  font-size: 9px;
+}
+
+.col-6 span {
+  font-size: 13px;
+  cursor: pointer;
+  color: $primary-color;
+
+  & .fa-regular {
+    color: #888888;
+  }
+}
+
+.button {
+  font-size: 11px;
+  color: #777777;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.margin {
+  margin-top: 40px;
+}
+
+.readable {
+  padding-left: 50px;
 }
 </style>

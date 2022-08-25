@@ -2,7 +2,7 @@
   <header>
     <div class="header-top">
       <div class="container">
-        <ul class="d-flex py-3 pl-0">
+        <ul class="d-flex py-3 p-0">
           <li>
             <a href="" >Everything about Lifestyle, Travel and Gadgets!</a>
           </li>
@@ -23,7 +23,7 @@
 
     <div class="header-bottom">
         <div class="container">
-        <ul class="d-flex py-3 pl-0">
+        <ul class="d-flex py-3 p-0 m-0">
           <li><a href="">HOME</a></li>
           <li><a href="">ELEMENTS</a></li>
           <li><a href="">FEATURES</a></li>
