@@ -4,7 +4,11 @@
       <div class="container">
         <div class="row h-100">
           <div class="col-4 my-3 relative">
-            <img :src="require('@/assets/images/blog-46.jpg')" alt="" class="bright" />
+            <img
+              :src="require('@/assets/images/blog-46.jpg')"
+              alt=""
+              class="bright"
+            />
             <div class="categories">
               <span class="text-white fw-bold subtitle">PHOTOGRAPHY</span>
             </div>
@@ -13,7 +17,11 @@
             </h5>
           </div>
           <div class="col-4 my-3 relative">
-            <img :src="require('@/assets/images/blog-47.jpg')" alt="" class="bright"/>
+            <img
+              :src="require('@/assets/images/blog-47.jpg')"
+              alt=""
+              class="bright"
+            />
             <div class="categories">
               <span class="text-white fw-bold subtitle">GADGETS</span>
             </div>
@@ -22,7 +30,11 @@
             </h5>
           </div>
           <div class="col-4 my-3 relative">
-            <img :src="require('@/assets/images/blog-48.jpg')" alt="" class="bright"/>
+            <img
+              :src="require('@/assets/images/blog-48.jpg')"
+              alt=""
+              class="bright"
+            />
             <div class="categories">
               <span class="text-white fw-bold subtitle">TRAVEL</span>
             </div>
@@ -31,21 +43,33 @@
             </h5>
           </div>
           <div class="col-4 my-3 relative">
-            <img :src="require('@/assets/images/blog-49.jpg')" alt="" class="bright"/>
+            <img
+              :src="require('@/assets/images/blog-49.jpg')"
+              alt=""
+              class="bright"
+            />
             <div class="bottom-categories">
               <span class="text-white fw-bold subtitle">LIFESTYLE</span>
             </div>
             <h5 class="toptitle px-3">The Best Way to Ride a Motorcycle</h5>
           </div>
           <div class="col-4 my-3 relative">
-            <img :src="require('@/assets/images/blog-50.jpg')" alt="" class="bright"/>
+            <img
+              :src="require('@/assets/images/blog-50.jpg')"
+              alt=""
+              class="bright"
+            />
             <div class="bottom-categories">
               <span class="text-white fw-bold subtitle">TRAVEL</span>
             </div>
             <h5 class="toptitle px-3">5 Fun Things to Do at the Beach</h5>
           </div>
           <div class="col-4 my-3 relative">
-            <img :src="require('@/assets/images/blog-51.jpg')" alt="" class="bright"/>
+            <img
+              :src="require('@/assets/images/blog-51.jpg')"
+              alt=""
+              class="bright"
+            />
             <div class="categories">
               <span class="text-white fw-bold subtitle">RECIPES</span>
             </div>
@@ -182,7 +206,11 @@
           </div>
           <div class="col-4 relative">
             <h5 class="fw-bold mb-3">FEATURED POSTS</h5>
-            <img :src="require('@/assets/images/blog-66.jpg')" alt="" class="bright "/>
+            <img
+              :src="require('@/assets/images/blog-66.jpg')"
+              alt=""
+              class="bright"
+            />
             <div class="minicategories">
               <span class="text-white fw-bold subtitle">RECIPES</span>
             </div>
@@ -211,28 +239,28 @@
     <section id="green">
       <div class="container">
         <div class="row justify-content-between">
-          <div class="">
+          <div class="col-1 py-3 pointer">
             <i class="fa-solid fa-angle-left"></i>
           </div>
-          <div class="col">
-            <span class="fw-bold text-white btn-black">GADGETS</span>
+          <div class="col text-center bg-dark mx-3 py-3 pointer">
+            <span class="fw-bold text-white">GADGETS</span>
           </div>
-          <div class="col">
-            <span class="fw-bold text-white btn-black">PHOTOGRAPHY</span>
+          <div class="col text-center bg-dark mx-3 py-3 pointer">
+            <span class="fw-bold text-white">PHOTOGRAPHY</span>
           </div>
-          <div class="col">
-            <span class="fw-bold text-white btn-black">LIFESTYLE</span>
+          <div class="col text-center bg-dark mx-3 py-3 pointer">
+            <span class="fw-bold text-white">LIFESTYLE</span>
           </div>
-          <div class="col">
-            <span class="fw-bold text-white btn-black">FASHION</span>
+          <div class="col text-center bg-dark mx-3 py-3 pointer">
+            <span class="fw-bold text-white">FASHION</span>
           </div>
-          <div class="col">
-            <span class="fw-bold text-white btn-black">RECIPES</span>
+          <div class="col text-center bg-dark mx-3 py-3 pointer">
+            <span class="fw-bold text-white">RECIPES</span>
           </div>
-          <div class="col">
-            <span class="fw-bold text-white btn-black">TRAVEL</span>
+          <div class="col text-center bg-dark mx-3 py-3 pointer">
+            <span class="fw-bold text-white">TRAVEL</span>
           </div>
-          <div class="">
+          <div class="col-1 text-end py-3 pointer">
             <i class="fa-solid fa-angle-right"></i>
           </div>
         </div>
@@ -302,7 +330,7 @@
                   </p>
                 </div>
               </div>
-              <div class="row justify-content-between">
+              <div class="row justify-content-between readable">
                 <div class="col-6">
                   <span
                     ><i class="fa-regular fa-user mx-1"></i>By John Doe</span
@@ -341,7 +369,7 @@
                   </p>
                 </div>
               </div>
-              <div class="row justify-content-between">
+              <div class="row justify-content-between readable">
                 <div class="col-6">
                   <span
                     ><i class="fa-regular fa-user mx-1"></i>By John Doe</span
@@ -380,7 +408,7 @@
                   </p>
                 </div>
               </div>
-              <div class="row justify-content-between">
+              <div class="row justify-content-between readable">
                 <div class="col-6">
                   <span
                     ><i class="fa-regular fa-user mx-1"></i>By John Doe</span
@@ -400,7 +428,7 @@
               </div>
             </article>
             <article class="margin border-bottom py-4">
-              <div class="row">
+              <div class="row p-2">
                 <div class="col-4 p-0">
                   <img :src="require('@/assets/images/blog-13.jpg')" alt="" />
                 </div>
@@ -438,7 +466,7 @@
                   </p>
                 </div>
               </div>
-              <div class="row justify-content-between">
+              <div class="row justify-content-between readable">
                 <div class="col-6">
                   <span
                     ><i class="fa-regular fa-user mx-1"></i>By John Doe</span
@@ -457,8 +485,186 @@
                 </div>
               </div>
             </article>
+            <div class="row mt-5">
+              <div class="col text-end p-0 m-0">
+                <nav class="text-end">
+                  <ul class="pagination text-end">
+                    <li class="page-item p-0 m-0">
+                      <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">
+                          <i class="fa-solid fa-angle-left"></i>
+                        </span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                    </li>
+                    <li class="page-item p-0 m-0">
+                      <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item p-0 m-0">
+                      <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item p-0 m-0">
+                      <a class="page-link" href="#">3</a>
+                    </li>
+                    <li class="page-item p-0 m-0">
+                      <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">
+                          <i class="fa-solid fa-angle-right"></i>
+                        </span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
           </div>
-          <div class="col-3"></div>
+          <div class="col-3">
+            <h6 class="fw-bold mt-4 py-3">LATEST FROM TWITTER</h6>
+            <div class="d-flex">
+              <span><i class="fa-brands fa-twitter fa-lg mx-1"></i> </span>
+              <p class="p-0 m-0">
+                If you have any suggestions for the next updates, let us know.
+              </p>
+            </div>
+            <span class="bottomdate">01:05 PM Sep 18th</span>
+
+            <div class="d-flex mt-3">
+              <span><i class="fa-brands fa-twitter fa-lg mx-1"></i> </span>
+              <p class="p-0 m-0">
+                We have just updated Porto Admin. Check the changelog for more
+                information.
+              </p>
+            </div>
+            <span class="bottomdate">01:04 PM Sep 18th</span>
+            <h6 class="fw-bold mt-4 py-3">PHOTOS FROM INSTAGRAM</h6>
+            <div class="row p-2">
+              <div class="col-4 m-0 p-0">
+                <img
+                  :src="
+                    require('@/assets/images/29739607_2020680068220520_4509928046932787200_n.jpg')
+                  "
+                  alt=""
+                  class="pointer"
+                />
+              </div>
+              <div class="col-4 m-0 p-0">
+                <img
+                  :src="
+                    require('@/assets/images/30087804_253872848488989_8792603541668626432_n.jpg')
+                  "
+                  alt=""
+                  class="pointer"
+                />
+              </div>
+              <div class="col-4 m-0 p-0">
+                <img
+                  :src="
+                    require('@/assets/images/29415620_196477127626244_3250318472361541632_n.jpg')
+                  "
+                  alt=""
+                  class="pointer"
+                />
+              </div>
+              <div class="col-4 m-0 p-0">
+                <img
+                  :src="
+                    require('@/assets/images/30078414_1274410412703843_8290935809419247616_n.jpg')
+                  "
+                  alt=""
+                  class="pointer"
+                />
+              </div>
+              <div class="col-4 m-0 p-0">
+                <img
+                  :src="
+                    require('@/assets/images/30077195_2066750973610181_3733150062893596672_n.jpg')
+                  "
+                  alt=""
+                  class="pointer"
+                />
+              </div>
+              <div class="col-4 m-0 p-0">
+                <img
+                  :src="
+                    require('@/assets/images/29415304_166583630713703_1032667922171953152_n.jpg')
+                  "
+                  alt=""
+                  class="pointer"
+                />
+              </div>
+            </div>
+            <h6 class="fw-bold mt-4 py-3">TAGS</h6>
+            <div class="row justify-content-between px-2">
+              <div
+                class="
+                  col-2
+                  bg-dark
+                  text-white
+                  fw-bold
+                  text-center
+                  pointer
+                  px-1
+                "
+              >
+                DESIGN
+              </div>
+              <div
+                class="
+                  col-2
+                  bg-dark
+                  text-white
+                  fw-bold
+                  text-center
+                  pointer
+                  px-1
+                "
+              >
+                BRANDS
+              </div>
+              <div
+                class="
+                  col-2
+                  bg-dark
+                  text-white
+                  fw-bold
+                  text-center
+                  pointer
+                  px-1
+                "
+              >
+                VIDEO
+              </div>
+              <div
+                class="
+                  col-2
+                  bg-dark
+                  text-white
+                  fw-bold
+                  text-center
+                  pointer
+                  px-1
+                "
+              >
+                BUSINESS
+              </div>
+              <div
+                class="
+                  col-2
+                  bg-dark
+                  text-white
+                  fw-bold
+                  text-center
+                  pointer
+                  px-1
+                "
+              >
+                TRAVEL
+              </div>
+            </div>
+            <h6 class="fw-bold mt-4 py-3">FIND US ON FACEBOOK</h6>
+            <p class="okler pointer p-2">Okler Themes</p>
+          </div>
         </div>
       </div>
     </section>
@@ -485,6 +691,9 @@ export default {};
   cursor: pointer;
 }
 
+.pointer {
+  cursor: pointer;
+}
 #grey {
   background-color: #f7f7f7;
   padding-top: 40px;
@@ -634,5 +843,25 @@ article img {
   position: absolute;
   left: 30px;
   bottom: 275px;
+}
+
+.bottomdate {
+  color: $primary-color;
+  font-size: 13px;
+  margin-left: 30px;
+}
+
+.row .col-2 {
+  font-size: 10px;
+  border-radius: 50px;
+}
+
+.okler {
+  color: $primary-color;
+  border-left: 5px solid #e2e2e2;
+}
+
+.page-item .page-link {
+  color: $primary-color;
 }
 </style>
