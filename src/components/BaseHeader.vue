@@ -45,7 +45,7 @@ export default {};
 @import "src/assets/sass/style.scss";
 
 .header-top {
-  background-color: $bgcontacts-color;
+  background-color: $primary-color;
 }
 
 ul {

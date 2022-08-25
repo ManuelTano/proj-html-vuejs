@@ -170,7 +170,7 @@
       </div>
     </section>
 
-    <section id="blue">
+    <section id="green">
       <div class="container">
         <div class="row justify-content-between">
           <div class="">
@@ -253,8 +253,8 @@ p {
   color: #888888;
 }
 
-#blue {
-  background-color: #0074ad;
+#green {
+  background-color: $primary-color;
   padding-top: 40px;
   padding-bottom: 40px;
 }
