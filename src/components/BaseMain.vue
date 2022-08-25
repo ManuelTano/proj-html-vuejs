@@ -846,7 +846,7 @@ article img {
   border-radius: 2px;
   position: absolute;
   left: 30px;
-  bottom: 275px;
+  bottom: 300px;
 }
 
 .bottomdate {
