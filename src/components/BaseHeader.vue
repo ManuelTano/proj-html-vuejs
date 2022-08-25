@@ -50,6 +50,7 @@ export default {};
 
 ul {
   list-style-type: none;
+  padding-left: 0px;
 
   & li {
     padding-right: 20px;
