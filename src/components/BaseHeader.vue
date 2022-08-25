@@ -4,12 +4,12 @@
       <div class="container">
         <ul class="d-flex py-3 p-0">
           <li>
-            <a href="">Everything about Lifestyle, Travel and Gadgets!</a>
+            <a href="" class="minitext">Everything about Lifestyle, Travel and Gadgets!</a>
           </li>
-          <li><a href="">SIGN IN</a></li>
-          <li><a href="">ABOUT US</a></li>
-          <li><a href="">CONTACT US</a></li>
-          <li><a href="">BUY NOW</a></li>
+          <li><a href="" class="minitext">SIGN IN</a></li>
+          <li><a href="" class="minitext">ABOUT US</a></li>
+          <li><a href="" class="minitext">CONTACT US</a></li>
+          <li><a href="" class="minitext">BUY NOW</a></li>
         </ul>
       </div>
     </div>
@@ -81,5 +81,9 @@ ul {
 
 img {
   width: 120px;
+}
+
+.minitext {
+  font-size: 12px;
 }
 </style>

@@ -485,8 +485,8 @@
                 </div>
               </div>
             </article>
-            <div class="row mt-5">
-              <div class="col text-end p-0 m-0">
+            <div class="row justify-content-between mt-5">
+              <div class="col text-end align-items-end p-0 m-0 ">
                 <nav class="text-end">
                   <ul class="pagination text-end">
                     <li class="page-item p-0 m-0">
@@ -675,7 +675,7 @@
 export default {};
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import "src/assets/sass/style.scss";
 
 .col-4 img {
@@ -740,7 +740,11 @@ p {
 
 #blog {
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
+}
+
+article {
+  cursor: pointer;
 }
 
 article img {
