@@ -3,23 +3,55 @@
     <section id="grey">
       <div class="container">
         <div class="row h-100">
-          <div class="col-4 my-3">
-            <img :src="require('@/assets/images/blog-46.jpg')" alt="" />
+          <div class="col-4 my-3 relative">
+            <img :src="require('@/assets/images/blog-46.jpg')" alt="" class="bright" />
+            <div class="categories">
+              <span class="text-white fw-bold subtitle">PHOTOGRAPHY</span>
+            </div>
+            <h5 class="toptitle px-3">
+              How To Take Better Concert Pictures in 30 Seconds
+            </h5>
           </div>
-          <div class="col-4 my-3">
-            <img :src="require('@/assets/images/blog-47.jpg')" alt="" />
+          <div class="col-4 my-3 relative">
+            <img :src="require('@/assets/images/blog-47.jpg')" alt="" class="bright"/>
+            <div class="categories">
+              <span class="text-white fw-bold subtitle">GADGETS</span>
+            </div>
+            <h5 class="toptitle px-3">
+              Gadgets That Make Your Smartphone Even Smarter
+            </h5>
           </div>
-          <div class="col-4 my-3">
-            <img :src="require('@/assets/images/blog-48.jpg')" alt="" />
+          <div class="col-4 my-3 relative">
+            <img :src="require('@/assets/images/blog-48.jpg')" alt="" class="bright"/>
+            <div class="categories">
+              <span class="text-white fw-bold subtitle">TRAVEL</span>
+            </div>
+            <h5 class="toptitle px-3">
+              20 Top-Rated Tourist Attractions in Manhattan
+            </h5>
           </div>
-          <div class="col-4 my-3">
-            <img :src="require('@/assets/images/blog-49.jpg')" alt="" />
+          <div class="col-4 my-3 relative">
+            <img :src="require('@/assets/images/blog-49.jpg')" alt="" class="bright"/>
+            <div class="bottom-categories">
+              <span class="text-white fw-bold subtitle">LIFESTYLE</span>
+            </div>
+            <h5 class="toptitle px-3">The Best Way to Ride a Motorcycle</h5>
           </div>
-          <div class="col-4 my-3">
-            <img :src="require('@/assets/images/blog-50.jpg')" alt="" />
+          <div class="col-4 my-3 relative">
+            <img :src="require('@/assets/images/blog-50.jpg')" alt="" class="bright"/>
+            <div class="bottom-categories">
+              <span class="text-white fw-bold subtitle">TRAVEL</span>
+            </div>
+            <h5 class="toptitle px-3">5 Fun Things to Do at the Beach</h5>
           </div>
-          <div class="col-4 my-3">
-            <img :src="require('@/assets/images/blog-51.jpg')" alt="" />
+          <div class="col-4 my-3 relative">
+            <img :src="require('@/assets/images/blog-51.jpg')" alt="" class="bright"/>
+            <div class="categories">
+              <span class="text-white fw-bold subtitle">RECIPES</span>
+            </div>
+            <h5 class="toptitle px-3">
+              Amazingly Fresh Fruit And Herb Drinks For Summer
+            </h5>
           </div>
         </div>
       </div>
@@ -105,7 +137,7 @@
             </div>
             <div class="posts d-flex border-bottom py-3">
               <div class="post-image">
-                <img :src="require('@/assets/images/blog-66.jpg')" alt="" />
+                <img :src="require('@/assets/images/blog-66a.jpg')" alt="" />
               </div>
               <div class="post-description">
                 <span class="mx-2 text-black"
@@ -148,9 +180,15 @@
               </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-4 relative">
             <h5 class="fw-bold mb-3">FEATURED POSTS</h5>
-            <img :src="require('@/assets/images/blog-66.jpg')" alt="" />
+            <img :src="require('@/assets/images/blog-66.jpg')" alt="" class="bright "/>
+            <div class="minicategories">
+              <span class="text-white fw-bold subtitle">RECIPES</span>
+            </div>
+            <h5 class="minititle px-3">
+              Tips to Help You Quickly Prepare your Lunch
+            </h5>
             <h5 class="fw-bold mt-3">FEATURED AUTHOR</h5>
             <div class="posts d-flex my-3">
               <div class="image">
@@ -538,5 +576,63 @@ article img {
 
 .readable {
   padding-left: 50px;
+}
+
+.relative {
+  position: relative;
+  cursor: pointer;
+}
+
+.bright {
+  filter: brightness(0.5);
+}
+
+.categories {
+  background-color: $primary-color;
+  padding: 2px 5px;
+  border-radius: 2px;
+  position: absolute;
+  left: 30px;
+  bottom: 70px;
+}
+
+.bottom-categories {
+  background-color: $primary-color;
+  padding: 2px 5px;
+  border-radius: 2px;
+  position: absolute;
+  left: 30px;
+  bottom: 50px;
+}
+
+.subtitle {
+  font-size: 10px;
+}
+
+.toptitle {
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+}
+
+.minititle {
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  left: 15px;
+  bottom: 240px;
+}
+
+.minicategories {
+  background-color: $primary-color;
+  padding: 2px 5px;
+  border-radius: 2px;
+  position: absolute;
+  left: 30px;
+  bottom: 275px;
 }
 </style>

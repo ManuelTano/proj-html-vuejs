@@ -4,7 +4,7 @@
       <div class="container">
         <ul class="d-flex py-3 p-0">
           <li>
-            <a href="" >Everything about Lifestyle, Travel and Gadgets!</a>
+            <a href="">Everything about Lifestyle, Travel and Gadgets!</a>
           </li>
           <li><a href="">SIGN IN</a></li>
           <li><a href="">ABOUT US</a></li>
@@ -16,22 +16,33 @@
     <div class="header-middle border-bottom">
       <div class="container">
         <figure>
-          <img :src="require('@/assets/images/logo-default-slim.png')" alt="" class="py-4" />
+          <img
+            :src="require('@/assets/images/logo-default-slim.png')"
+            alt=""
+            class="py-4"
+          />
         </figure>
       </div>
     </div>
 
     <div class="header-bottom">
-        <div class="container">
-        <ul class="d-flex py-3 p-0 m-0">
-          <li><a href="">HOME</a></li>
-          <li><a href="">ELEMENTS</a></li>
-          <li><a href="">FEATURES</a></li>
-          <li><a href="">PAGES</a></li>
-          <li><a href="">PORTFOLIO</a></li>
-          <li><a href="">BLOG</a></li>
-          <li><a href="">SHOP</a></li>
-        </ul>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <ul class="d-flex py-3 p-0 m-0">
+              <li><a href="">HOME</a></li>
+              <li><a href="">ELEMENTS</a></li>
+              <li><a href="">FEATURES</a></li>
+              <li><a href="">PAGES</a></li>
+              <li><a href="">PORTFOLIO</a></li>
+              <li><a href="">BLOG</a></li>
+              <li><a href="">SHOP</a></li>
+            </ul>
+          </div>
+          <div class="col-6 text-end">
+            <span class="text-black "><i class="fa-solid fa-search mt-3"></i></span>
+          </div>
+        </div>
       </div>
     </div>
   </header>
@@ -63,9 +74,9 @@ ul {
 }
 
 .header-bottom .container ul li a {
-    color: black;
-    font-weight: bold;
-    margin-right: 25px;
+  color: black;
+  font-weight: bold;
+  margin-right: 25px;
 }
 
 img {
