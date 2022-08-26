@@ -15,6 +15,10 @@
             <h5 class="toptitle px-3">
               How To Take Better Concert Pictures in 30 Seconds
             </h5>
+            <p class="sottotitolo">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Nam  euismod odio, gravida pelle...
+            </p>
           </div>
           <div class="col-4 my-3 relative">
             <img
@@ -28,6 +32,10 @@
             <h5 class="toptitle px-3">
               Gadgets That Make Your Smartphone Even Smarter
             </h5>
+            <p class="sottotitolo">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Nam  euismod odio, gravida pelle...
+            </p>
           </div>
           <div class="col-4 my-3 relative">
             <img
@@ -41,6 +49,10 @@
             <h5 class="toptitle px-3">
               20 Top-Rated Tourist Attractions in Manhattan
             </h5>
+            <p class="sottotitolo">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+               euismod odio, gravida pelle...
+            </p>
           </div>
           <div class="col-4 my-3 relative">
             <img
@@ -52,6 +64,10 @@
               <span class="text-white fw-bold subtitle">LIFESTYLE</span>
             </div>
             <h5 class="toptitle px-3">The Best Way to Ride a Motorcycle</h5>
+            <p class="sottotitolo">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+               euismod odio, gravida pelle...
+            </p>
           </div>
           <div class="col-4 my-3 relative">
             <img
@@ -63,6 +79,10 @@
               <span class="text-white fw-bold subtitle">TRAVEL</span>
             </div>
             <h5 class="toptitle px-3">5 Fun Things to Do at the Beach</h5>
+            <p class="sottotitolo">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+               euismod odio, gravida pelle...
+            </p>
           </div>
           <div class="col-4 my-3 relative">
             <img
@@ -76,6 +96,10 @@
             <h5 class="toptitle px-3">
               Amazingly Fresh Fruit And Herb Drinks For Summer
             </h5>
+            <p class="sottotitolo">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+               euismod odio, gravida pelle...
+            </p>
           </div>
         </div>
       </div>
@@ -217,10 +241,14 @@
             <h5 class="minititle px-3">
               Tips to Help You Quickly Prepare your Lunch
             </h5>
+            <p class="sidetitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+               euismod odio, gravida pelle...
+            </p>
             <h5 class="fw-bold mt-3">FEATURED AUTHOR</h5>
-            <div class="posts d-flex my-3">
+            <div class="posts d-flex my-3 ">
               <div class="image">
-                <img :src="require('@/assets/images/avatar.jpg')" alt="" />
+                <img :src="require('@/assets/images/avatar.jpg')" alt="" id="light"/>
               </div>
               <div class="post-description">
                 <h5 class="mx-3 mt-2 text-black fw-bold">John Doe</h5>
@@ -242,22 +270,22 @@
           <div class="col-1 py-3 pointer">
             <i class="fa-solid fa-angle-left"></i>
           </div>
-          <div class="col text-center bg-dark mx-3 py-3 pointer">
+          <div class="col text-center bg-dark mx-3 py-3 pointer frame">
             <span class="fw-bold text-white">GADGETS</span>
           </div>
-          <div class="col text-center bg-dark mx-3 py-3 pointer">
+          <div class="col text-center bg-dark mx-3 py-3 pointer frame">
             <span class="fw-bold text-white">PHOTOGRAPHY</span>
           </div>
-          <div class="col text-center bg-dark mx-3 py-3 pointer">
+          <div class="col text-center bg-dark mx-3 py-3 pointer frame">
             <span class="fw-bold text-white">LIFESTYLE</span>
           </div>
-          <div class="col text-center bg-dark mx-3 py-3 pointer">
+          <div class="col text-center bg-dark mx-3 py-3 pointer frame">
             <span class="fw-bold text-white">FASHION</span>
           </div>
-          <div class="col text-center bg-dark mx-3 py-3 pointer">
+          <div class="col text-center bg-dark mx-3 py-3 pointer frame">
             <span class="fw-bold text-white">RECIPES</span>
           </div>
-          <div class="col text-center bg-dark mx-3 py-3 pointer">
+          <div class="col text-center bg-dark mx-3 py-3 pointer frame">
             <span class="fw-bold text-white">TRAVEL</span>
           </div>
           <div class="col-1 text-end py-3 pointer">
@@ -486,7 +514,7 @@
               </div>
             </article>
             <div class="row justify-content-between mt-5">
-              <div class="col text-end align-items-end p-0 m-0 ">
+              <div class="col text-end align-items-end p-0 m-0">
                 <nav class="text-end">
                   <ul class="pagination text-end">
                     <li class="page-item p-0 m-0">
@@ -797,7 +825,7 @@ article img {
 }
 
 .bright {
-  filter: brightness(0.5);
+  filter: brightness(0.7);
 }
 
 .categories {
@@ -805,8 +833,69 @@ article img {
   padding: 2px 5px;
   border-radius: 2px;
   position: absolute;
-  left: 30px;
+  left: 25px;
   bottom: 70px;
+}
+
+#light {
+  filter: brightness(1.0);
+}
+
+.relative:hover {
+
+
+  & img {
+    filter: brightness(0.4);
+  }
+  
+  & .categories {
+    bottom: 120px;
+  }
+
+  & .bottom-categories {
+    bottom: 100px;
+  }
+
+  & .minicategories {
+    bottom: 340px;
+  }
+
+  & .toptitle {
+    bottom: 60px;
+  }
+
+  & .minititle {
+    bottom: 280px;
+  }
+
+  & .sottotitolo {
+    bottom: 10px;
+    display: block;
+  }
+
+  & .sidetitle {
+    bottom: 235px;
+    display: block;
+  }
+}
+
+.sottotitolo {
+  font-size: 12px;
+  color: lightgrey;
+  position: absolute;
+  left: 25px;
+  padding-right: 5px;
+  bottom: 50px;
+  display: none;
+}
+
+.sidetitle {
+  bottom: 10px;
+  position: absolute;
+  left: 25px;
+  display: none;
+  font-size: 12px;
+  color: lightgrey;
 }
 
 .bottom-categories {
@@ -814,7 +903,7 @@ article img {
   padding: 2px 5px;
   border-radius: 2px;
   position: absolute;
-  left: 30px;
+  left: 25px;
   bottom: 50px;
 }
 
@@ -827,7 +916,7 @@ article img {
   font-size: 18px;
   color: white;
   position: absolute;
-  left: 15px;
+  left: 10px;
   bottom: 10px;
 }
 
@@ -836,7 +925,7 @@ article img {
   font-size: 18px;
   color: white;
   position: absolute;
-  left: 15px;
+  left: 10px;
   bottom: 240px;
 }
 
@@ -845,7 +934,7 @@ article img {
   padding: 2px 5px;
   border-radius: 2px;
   position: absolute;
-  left: 30px;
+  left: 25px;
   bottom: 300px;
 }
 
@@ -867,5 +956,9 @@ article img {
 
 .page-item .page-link {
   color: $primary-color;
+}
+
+.frame:hover {
+  filter: opacity(0.9);
 }
 </style>

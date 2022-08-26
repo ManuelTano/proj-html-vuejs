@@ -3,6 +3,7 @@
     <div class="footertop">
       <div class="container">
         <h6 class="text-white font-italic getintouch">Get in Touch</h6>
+        <div id="triangle"></div>
         <div class="row justify-content-between">
           <div class="col-3">
             <h6 class="fw-bold text-white mt-5 text">ABOUT THE BLOG</h6>
@@ -71,19 +72,13 @@
           </div>
           <div class="col-3">
             <h6 class="fw-bold text-white mt-5 text">CATEGORIES</h6>
-            <span class="categories">GADGETS</span>
-            <span class="categories mx-2">PHOTOGRAPHY</span> <br />
-            <span class="categories mt-3">LIFESTYLE</span>
-            <span class="categories mx-2 mt-3">FASHION</span>
-            <span class="categories mt-3">RECIPES</span> <br />
-            <span class="categories mt-3">TRAVEL</span>
-            <span class="categories mt-3 mx-2">BUSINESS</span> <br />
-            <span class="categories mt-3">ARCHITECTURE</span>
-            <span class="categories mt-3 mx-2">REVIEWS</span> <br />
-            <span class="categories mt-3">SPORTS</span>
-            <span class="categories mt-3 mx-2">VIDEOS</span>
-            <span class="categories mt-3">TECHNOLOGY</span> <br />
-            <span class="categories mt-3">DESIGN</span>
+            <span
+              v-for="(tagFooter, index) in tagFooter"
+              :key="index"
+              class="categories"
+            >
+              {{ tagFooter }}</span
+            >
           </div>
         </div>
       </div>
@@ -106,10 +101,15 @@
           </div>
 
           <div class="col-6 text-end">
-            <span class="grey pointer"><i class="fa-solid fa-angle-right grey mx-2"></i>FAQ's</span>
-            <span class="grey pointer"><i class="fa-solid fa-angle-right grey mx-2"></i>Sitemap</span>
-            <span class="grey pointer"><i class="fa-solid fa-angle-right grey mx-2"></i>Contact Us</span>
-            
+            <span class="grey pointer"
+              ><i class="fa-solid fa-angle-right grey mx-2"></i>FAQ's</span
+            >
+            <span class="grey pointer"
+              ><i class="fa-solid fa-angle-right grey mx-2"></i>Sitemap</span
+            >
+            <span class="grey pointer"
+              ><i class="fa-solid fa-angle-right grey mx-2"></i>Contact Us</span
+            >
           </div>
         </div>
       </div>
@@ -118,7 +118,12 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "BaseFooter",
+  props: {
+    tagFooter: Array,
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -128,14 +133,14 @@ export default {};
   background-color: #212529;
   padding-top: 50px;
   padding-bottom: 80px;
-  position:relative
+  position: relative;
 }
 .getintouch {
   position: absolute;
   top: -20px;
   left: 300px;
   background-color: $primary-color;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
   font-size: 20px;
   padding: 10px 25px;
 }
@@ -174,11 +179,13 @@ b {
 
 .categories {
   background-color: black;
-  padding: 4px 10px;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 12px;
+  padding: 1px;
   color: white;
   cursor: pointer;
+  margin-right: 13px;
+  border-radius: 2px solid black;
 }
 
 .footerbottom {
@@ -194,5 +201,16 @@ b {
 
 .pointer {
   cursor: pointer;
+}
+
+#triangle {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 20px solid green;
+  position: absolute;
+  top: -20px;
+  left: 275px;
 }
 </style>
