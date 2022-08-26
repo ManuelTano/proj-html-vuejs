@@ -113,6 +113,7 @@
           </div>
         </div>
       </div>
+      <a href="#top" class="text-center p-3"><i class="fas fa-chevron-up "></i></a>
     </div>
   </footer>
 </template>
@@ -192,6 +193,18 @@ b {
   background-color: #1c2023;
   padding-top: 25px;
   padding-bottom: 25px;
+
+  a {
+    bottom: 0;
+    right: 1%;
+    width: 45px;
+    height: 30x;
+    line-height: 30px;
+    position: fixed;
+    color: #B3B4B5;
+    background: #373839;
+    border-radius: 2px;
+  }
 }
 
 .logo {

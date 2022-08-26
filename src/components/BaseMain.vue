@@ -797,7 +797,7 @@ article img {
   cursor: pointer;
   color: $primary-color;
 
-  & .fa-regular {
+  .fa-regular {
     color: #888888;
   }
 }
@@ -844,36 +844,36 @@ article img {
 .relative:hover {
 
 
-  & img {
+  img {
     filter: brightness(0.4);
   }
   
-  & .categories {
+  .categories {
     bottom: 120px;
   }
 
-  & .bottom-categories {
+  .bottom-categories {
     bottom: 100px;
   }
 
-  & .minicategories {
+  .minicategories {
     bottom: 340px;
   }
 
-  & .toptitle {
+  .toptitle {
     bottom: 60px;
   }
 
-  & .minititle {
+  .minititle {
     bottom: 280px;
   }
 
-  & .sottotitolo {
+  .sottotitolo {
     bottom: 10px;
     display: block;
   }
 
-  & .sidetitle {
+  .sidetitle {
     bottom: 235px;
     display: block;
   }
